@@ -1,0 +1,50 @@
+# Node.js and Express backend
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.DS_Store
+.npm/
+coverage/
+*.log
+logs/
+logs/*.log
+debug.log
+error.log
+
+# React Vite frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+
+# Editor and OS-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+Thumbs.db
+.DS_Store
+*.iml
+
+# Build and dependencies
+dist/
+out/
+build/
+.cache/
+.eslintcache
+*.tsbuildinfo
